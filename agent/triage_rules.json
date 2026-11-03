@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "severity": "P0",
+      "label": "Critical",
+      "color": "red",
+      "criteria": "Service outage, data loss, security vulnerability, or payment failure."
+    },
+    {
+      "severity": "P1",
+      "label": "High",
+      "color": "orange",
+      "criteria": "Core functionality broken, affecting multiple users with no immediate workaround."
+    },
+    {
+      "severity": "P2",
+      "label": "Medium",
+      "color": "yellow",
+      "criteria": "Non-blocking bug, edge case, or feature with functional workaround."
+    },
+    {
+      "severity": "P3",
+      "label": "Low",
+      "color": "green",
+      "criteria": "Cosmetic issue, UI alignment, minor copy/typo, or documentation error."
+    }
+  ]
+}

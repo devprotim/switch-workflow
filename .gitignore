@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environments & dependencies
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Sensitive environment variables & credentials
+.env
+.env.local
+*.pem
+*.key
+
+# Docker & build artifacts
+*.log
+dist/
+build/
