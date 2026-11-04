@@ -37,3 +37,19 @@
 - Launch Switch Console and complete the `switch-buddy` onboarding flow.
 - Spin up the local Mattermost instance and create `#bug-triage` channel.
 - Connect our first AI agent and test end-to-end communication loop in chat.
+
+---
+
+## 🗓️ Day 1 — Nov 4, 2026: The Bug Hunter & Core Contribution
+
+### 🛠️ What We Did Today
+1. **Discovered Real Core Bug in Switch Console (v0.40.1):**
+   - When connecting an existing Mattermost instance on `http://localhost:8065`, Switch Console's native server ignored the user-specified port and fell back to cached `ports.json` pointing to port `50007`.
+   - Identified root cause in `local-switch-server/ports.json` and `native/mattermost-compose.yml`.
+   - Fixed local connection so Switch Core and Mattermost communicate properly.
+
+2. **Submitted Official Hackathon Issue for Core Contribution Track:**
+   - Opened issue [#1482](https://github.com/sandbox-quantum/switch/issues/1482) on `sandbox-quantum/switch`.
+   - Formally requested assignment under the `hackathon` label to compete for the **$100 Best Core Contribution** track.
+
+
