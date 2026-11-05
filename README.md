@@ -20,14 +20,47 @@ Most developers use powerful AI coding agents (Claude Code, OpenCode, Codex, Cur
 
 ```mermaid
 flowchart TD
-    A["Developer posts bug in #bug-triage"] --> B["Switch Console"]
+    A["Developer speaks/posts bug in #bug-triage"] --> B["Switch Bridge & Core"]
     B --> C["AI Agent (SwitchOps)"]
-    C --> D["Analyzes issue & determines urgency"]
-    D --> E["Switch posts reply in thread"]
-    E --> F["Team reviews & acts together"]
+    C --> D["Analyzes severity, root cause & fix"]
+    D --> E["Switch posts triage thread in Mattermost"]
+    E --> F["Team acts immediately on clear next steps"]
 
-    H["Wispr Flow"] -->|"Spoken prompts & docs"| C
+    H["Wispr Flow"] -->|"Voice-first bug dictation & prompts"| A
 ```
+
+---
+
+## 📸 Live Demo & Triage Examples
+
+### 1. 🔴 P0 Critical Triage — Production Outage
+When an outage is reported, SwitchOps immediately identifies the severity, isolates the suspected root cause (connection pool exhaustion after v2.4 rollout), and delivers concrete rollback and debugging instructions:
+
+![P0 Outage Triage](demo/screenshots/01-triage-p0-checkout-outage.png)
+
+---
+
+### 2. 🟠 P1 High Priority Triage — Broken Authentication
+A user reports Google OAuth JWT validation failures. SwitchOps pinpoints public key rotation or verifier misconfiguration and advises specific check steps without blocking existing sessions:
+
+![P1 Auth Triage](demo/screenshots/02-triage-p1-jwt-auth-fail.png)
+
+---
+
+### 3. 🟢 P3 Low Priority Triage — Responsive UI Glitch
+A minor CSS overlap on mobile screens below 375px is triaged with exact layout fixes:
+
+![P3 UI Glitch Triage](demo/screenshots/03-triage-p3-darkmode-toggle.png)
+
+---
+
+### 4. 🎙️ Built with Wispr Flow (Voice-First DevOps)
+Bug reports and prompt engineering were spoken directly using Wispr Flow push-to-talk:
+
+![Wispr Flow in Action](demo/screenshots/04-wispr-flow-dictation-pill.png)
+
+*Wispr Flow Usage & Insights Proof:*
+![Wispr Flow Insights Proof](demo/screenshots/05-wispr-flow-proof.png)
 
 ---
 
@@ -83,3 +116,4 @@ switch-workflow/
 - **Bonus Track:** Code with Wispr ($500)
 - **Bonus Track:** Best Blog (AirPods 5)
 - **Bonus Track:** #HowISwitch (Mechanical Keyboard)
+

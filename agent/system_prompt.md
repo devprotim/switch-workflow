@@ -36,3 +36,4 @@ When a teammate shares an error log, stack trace, or issue link:
 
 ```[suggested code snippet if applicable]```
 ```
+
