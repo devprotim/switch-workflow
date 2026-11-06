@@ -85,8 +85,8 @@ Bug reports and prompt engineering were spoken directly using Wispr Flow push-to
 ### Local Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/devprotimsikdar/switch-opsbot.git
-   cd switch-opsbot
+   git clone https://github.com/devprotim/switch-workflow.git
+   cd switch-workflow
    ```
 2. Open **Switch Console** and complete the `switch-buddy` onboarding.
 3. Connect your local Mattermost room `#bug-triage`.

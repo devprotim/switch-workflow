@@ -14,7 +14,7 @@ Here is #HowISwitch:
 
 Incident triage is now a transparent, team-wide experience. No more isolated terminals!
 
-Check out the repo & architecture: https://github.com/devprotimsikdar/switch-workflow
+Check out the repo & architecture: https://github.com/devprotim/switch-workflow
 
 #AI #DevOps #WisprFlow #OpenSource #DevTools
 ```
@@ -34,7 +34,8 @@ SwitchOps brings autonomous AI agents directly into team chat channels (Mattermo
 - Public Team Thread: Remediations and code snippets are posted right in the shared thread so everyone stays aligned.
 - Voice-First with Wispr Flow: Spoke technical stack traces and prompts at 96 WPM with zero voice typos.
 
-Repo & live demo screenshots: https://github.com/devprotimsikdar/switch-workflow
+Repo & live demo screenshots: https://github.com/devprotim/switch-workflow
 
 #HowISwitch #WeMakeDevs #DevOps #SoftwareEngineering #AI
 ```
+

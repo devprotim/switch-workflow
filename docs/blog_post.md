@@ -100,5 +100,6 @@ Even for minor visual glitches, SwitchOps suggests exact CSS media query solutio
 ## Try It Out
 
 Check out the full open-source project and step-by-step setup guide:
-- **GitHub Repository:** [https://github.com/devprotimsikdar/switch-workflow](https://github.com/devprotimsikdar/switch-workflow)
+- **GitHub Repository:** [https://github.com/devprotim/switch-workflow](https://github.com/devprotim/switch-workflow)
 - **Built for:** Flip the Switch Hackathon (Nov 2026)
+

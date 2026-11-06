@@ -32,3 +32,4 @@
 - **What to say:**
   > *"SwitchOps is completely open source, preserves data privacy with local execution, and eliminates expensive API keys.*
   > *Thanks to Switch AI, WeMakeDevs, DevTools Academy, and Wispr Flow for hosting the Flip the Switch hackathon!"*
+
