@@ -1,50 +1,56 @@
-# 2-Minute Demo Video Script: SwitchOps
+# SwitchOps — Live Demo Video Script
 
-> **Target Length:** ~2 minutes  
-> **Vibe:** Friendly, casual, and relaxed — like showing a cool project to a developer friend.
-
----
-
-## ⏱️ Timeline & Script
-
-### 0:00 – 0:30 | The Intro & The Problem
-**On Screen:** Show your [GitHub README](https://github.com/devprotim/switch-workflow).
-
-> *"Hey everyone! Quick question: how many times have you used an AI coding tool on your laptop, figured out a bug fix in your private terminal, but your teammates had no clue what was happening?*
->
-> *Right now, most of our AI tools are kind of lonely. They sit in our own personal shell, while our team actually hangs out in chat. That's why I built **SwitchOps** for the Flip the Switch hackathon.*
->
-> *With Switch AI, we took the AI out of the private terminal and gave it a seat right inside our team chat room."*
+> **Format:** Walkthrough Demo  
+> **Length:** ~2 minutes  
+> **Style:** Natural, engaging live product demonstration ("Let me show you my screen...")
 
 ---
 
-### 0:30 – 0:55 | The Setup & Wispr Flow
-**On Screen:** Switch Console showing the `#bug-triage` room, then quick glance at Wispr Flow.
+## 🎬 Demo Walkthrough
 
-> *"Here's how simple the setup is. Inside Switch Console, we hooked up a local Mattermost chat channel called `#bug-triage` to our AI teammate.*
+### 0:00 – 0:25 | Welcome & The Quick Pitch
+**On Screen:** Start on your GitHub repo [devprotim/switch-workflow](https://github.com/devprotim/switch-workflow).
+
+> *"Hey everyone, welcome to the demo of **SwitchOps**!*
 >
-> *And honestly, typing out long, messy stack traces during an incident is super annoying. So I used **Wispr Flow** to just speak the bugs out loud hands-free at nearly 100 words a minute. Let me show you what happens next."*
+> *Today, I'm excited to show you how we took an AI coding agent out of the private terminal and put it directly into our team chat to triage bugs alongside humans in real time.*
+>
+> *Let's jump right into the demo."*
 
 ---
 
-### 0:55 – 1:45 | Seeing It In Action
-**On Screen:** Mattermost `#bug-triage` channel, scrolling through the replies.
+### 0:25 – 0:50 | The Setup & Wispr Flow
+**On Screen:** Switch to **Switch Console** and show the `#bug-triage` room, then glance at Wispr Flow.
 
-> *"Check out `#bug-triage` in action.*
+> *"Here in Switch Console, we've connected our local Mattermost workspace to a custom agent named SwitchOps.*
 >
-> *When our checkout broke right after a new release, I just spoke what was happening into the channel: 'production checkout is down, getting 500 database pool errors.'*
->
-> *Within seconds, SwitchOps jumped straight into the thread. It tagged it as a 🔴 P0 Critical emergency, figured out that the new release was hogging database connections, and gave us clear rollback instructions so the whole team knew what to do right away.*
->
-> *We also tested it with a broken Google login bug. It immediately recognized that it was a 🟠 P1 authentication issue, pointed out an expired key cache, and told us what to check.*
->
-> *Even for small stuff, like text overlapping in dark mode, it gives a friendly 🟢 P3 rating and shares the exact CSS fix."*
+> *We also hooked up **Wispr Flow** so that during high-pressure incidents, on-call engineers don't even have to type out long, tedious error messages—they can just speak naturally hands-free. Let's see how that looks."*
 
 ---
 
-### 1:45 – 2:05 | Wrap-Up
-**On Screen:** GitHub repo and DEVLOG.
+### 0:50 – 1:35 | The Live Triage in Action
+**On Screen:** Switch to the **Mattermost `#bug-triage` channel** and zoom in on the thread.
 
-> *"The best part? Nobody is debugging alone in the dark anymore. The AI works alongside the whole team out in the open. And because Switch runs locally, our code and incident logs stay private on our machine.*
+> *"So picture this scenario: our team just shipped release v2.4, and suddenly checkout breaks.*
 >
-> *Huge shoutout to Switch AI, WeMakeDevs, DevTools Academy, and Wispr Flow for hosting such a fun hackathon. Thanks for watching!"*
+> *I used Wispr Flow to speak the alert straight into chat: 'Team, production checkout is completely down after the v2.4 deployment. Getting 500 HTTP database connection pool exhausted errors.'*
+>
+> *Now watch what SwitchOps does right here in the thread. Within seconds, it replies with a structured summary:*
+> - *It automatically flags it as **🔴 P0 Critical**.*
+> - *It isolates the root cause to database connection exhaustion linked to the recent v2.4 release.*
+> - *And most importantly, it gives our on-call team clear next steps: pause rollout, roll back, and verify the connection pool.*
+>
+> *Down here, we tested another scenario with Google OAuth login failures. SwitchOps immediately caught that it was a **🟠 P1** issue caused by JWT key rotation caching, and told us exactly what verifier settings to check.*
+>
+> *Even for small CSS bugs like text overlap in dark mode, it gives a **🟢 P3** rating with the exact code fix."*
+
+---
+
+### 1:35 – 2:00 | Why It Matters & Wrap-Up
+**On Screen:** Return to the GitHub repo / architecture diagram.
+
+> *"What makes this so powerful is that nobody is stuck debugging alone in a private shell anymore. The entire team sees the triage, learns from the diagnosis, and collaborates out in the open.*
+>
+> *Because Switch runs locally on our machine, our codebase and incident data stay 100% private.*
+>
+> *That’s SwitchOps! Thanks so much for checking out the demo."*
