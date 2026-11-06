@@ -15,7 +15,8 @@
   [https://dev.to/devprotimsikdar/how-i-turned-an-ai-coding-agent-into-a-collaborative-devops-teammate-in-1-day-414c](https://dev.to/devprotimsikdar/how-i-turned-an-ai-coding-agent-into-a-collaborative-devops-teammate-in-1-day-414c)
 
 - **Social Post (#HowISwitch Track - Mechanical Keyboard):**  
-  [https://lnkd.in/p/dGFfRRBA](https://lnkd.in/p/dGFfRRBA)
+  - **LinkedIn:** [https://lnkd.in/p/dGFfRRBA](https://lnkd.in/p/dGFfRRBA)  
+  - **X (Twitter):** [https://x.com/devprotimsikdr/status/2118597267716518168](https://x.com/devprotimsikdr/status/2118597267716518168)
 
 - **Wispr Flow Usage Proof ($500 Track):**  
   Relative file in repo: `demo/screenshots/05-wispr-flow-proof.png`  
@@ -25,3 +26,4 @@
 
 ### 3. Video Demo
 - **Demo Video Link:** *(Pending recording — 2-minute Loom / YouTube link)*
+
