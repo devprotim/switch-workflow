@@ -117,10 +117,35 @@
 - Wispr Flow voice dictation makes describing complex stack traces and incident symptoms 2-3x faster than typing.
 
 ### 🔜 Next Up (Day 3 — Nov 6: Submission Day)
-- Record 2-minute walkthrough demo video.
-- Publish technical blog post on Dev.to / Hashnode.
-- Publish #HowISwitch social post on X / LinkedIn.
+- [x] Record 2-minute walkthrough demo video.
+- [x] Publish technical blog post on Dev.to / Hashnode.
+- [x] Publish #HowISwitch social post on X / LinkedIn.
+- [x] Submit Track 03: Best Core Contribution PR (#833 Canva connector).
 - Submit project before Friday EOD!
+
+---
+
+## 🗓️ Day 3 — Nov 6, 2026: Core Contribution & Hackathon Polish
+
+### 🎯 Objectives
+- [x] Get assigned to official Track 03 hackathon issue on `sandbox-quantum/switch`
+- [x] Implement the Canva Service Connector ([#833](https://github.com/sandbox-quantum/switch/issues/833))
+- [x] Submit Pull Request ([#1615](https://github.com/sandbox-quantum/switch/pull/1615)) and sign the CLA
+- [x] Verify CI test suite passes 100%
+- [x] Update all submission links and assets
+
+### 🛠️ What We Did Today
+1. **Track 03 Assignment & Discord Escalation:**
+   - Evaluated open hackathon tickets and posted structured proposals for `#833` (Canva) and `#783` (Factory Droid).
+   - Coordinated via Discord with Phil Conway to secure official assignment from the maintainer team.
+2. **Canva Connector Implementation:**
+   - Built full OAuth configuration in `core/switch_core/connections/catalog/canva/connection.yaml` targeting Canva's official remote MCP server (`https://api.canva.com/connect/v1/mcp`).
+   - Authored `skill/SKILL.md` specifying Canva's transactional editing lifecycle (`start-editing-transaction` → `perform-editing-operations` → `commit-editing-transaction`) and strict credential hygiene.
+   - Added comprehensive test coverage in `test_loader.py`, `test_app_credentials.py`, `test_connector_apps.py`, `test_connection_catalog.py`, and `test_workspace_services.py`.
+   - Updated design documentation in `docs/design/service-connections-v2.md`.
+3. **Submitted PR #1615 & Passed CI:**
+   - Opened PR [#1615](https://github.com/sandbox-quantum/switch/pull/1615) referencing `Closes #833`.
+   - Successfully signed the Contributor License Agreement (CLA) with green CI status across CLA Assistant and Socket Security.
 
 
 

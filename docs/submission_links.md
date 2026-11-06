@@ -22,6 +22,11 @@
   Relative file in repo: `demo/screenshots/05-wispr-flow-proof.png`  
   Direct URL: [https://github.com/devprotim/switch-workflow/blob/main/demo/screenshots/05-wispr-flow-proof.png](https://github.com/devprotim/switch-workflow/blob/main/demo/screenshots/05-wispr-flow-proof.png)
 
+- **Track 03: Best Core Contribution ($100 Track):**  
+  - **Pull Request:** [https://github.com/sandbox-quantum/switch/pull/1615](https://github.com/sandbox-quantum/switch/pull/1615)  
+  - **Issue Solved:** [#833: Add the Canva connector](https://github.com/sandbox-quantum/switch/issues/833)  
+  - **Status:** Assigned, PR submitted, CLA signed, CI passing.
+
 ---
 
 ### 3. Video Demo
